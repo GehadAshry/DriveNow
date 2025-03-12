@@ -1,9 +1,9 @@
-# 🚗 DriveNow – Car Rental Website  
+#  DriveNow – Car Rental Website  
 
 ##  Project Overview  
 **DriveNow** is a static car rental website built using **HTML & CSS**. It features a sleek, modern design, providing an intuitive and seamless user experience for browsing rental cars, learning about the company, and booking vehicles. This project was developed as part of a diploma program to demonstrate frontend web development skills.  
 
-## 🌟 Features  
+## Features  
 - ✅ **Home Page** – Showcases the brand and services with a hero section.  
 - ✅ **Car Listings** – Displays available cars with images and descriptions.  
 - ✅ **Car Details Pages** – Provides specifications and features for each vehicle.  
@@ -33,7 +33,7 @@ DriveNow-CarRental\
 └── 📄 Terms-and-conditions.html # Rental terms 
 
 
-## 🚀 How to Use  
+##  How to Use  
 1. **Clone the repository**  
    ```sh
    git clone https://github.com/GehadAshry/DriveNow.git
