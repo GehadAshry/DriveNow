@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/StyleTwo.css">
+    <link rel="icon" href="imgs/MB-star_n_web.svg" type="image/png">
+    <title>DriveNow</title>
+    <style>
+      a{
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div class="first-nav-bar">
+        <div class="left-content">
+          <p><a href="Terms-and-conditions.html">Terms&conditions</a></p>
+          <p><a href="FAQ.html">FAQS</a></p>
+        </div>
+        <div class="logo">
+          <img src="imgs/MB-star_n_web.svg" alt="MB" />
+        </div>
+        <div class="right-content">
+          <p><a href="Testimonial.html">Testimonials</a></p>
+          <p><a href="careers.html">Careers</a></p>
+        </div>
+      </div>
+      <div class="second-nav-bar">
+        <div class="content">
+          <p><a href="index.html">Home</a></p>
+          <p><a href="ourCars.html">Our Cars</a></p>
+
+          <p><a href="car-booking.html">Booking</a></p>
+          <p><a href="about-us.html">About us</a></p>
+          <p><a href="contact-us.html">contact us</a></p>
+        </div>
+      </div>
+    </div>
+    <section>
+      <h2>Job Application Form</h2>
+      <form action="Thankyou.html" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="full-name">Full Name:</label>
+          <input type="text" id="full-name" name="full-name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required />
+        </div>
+        <div class="form-group">
+          <label for="education">Education:</label>
+          <textarea
+            id="education"
+            name="education"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <label for="experience">Work Experience:</label>
+          <textarea
+            id="experience"
+            name="experience"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <label for="job-title">Job Title:</label>
+          <select id="job-title" name="job-title" required>
+            <option value="customer">Customer Support Representative</option>
+            <option value="marketing">Marketing Manager</option>
+            <option value="it">IT Support Specialist</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="resume">Upload Resume:</label>
+          <input
+            type="file"
+            id="resume"
+            name="resume"
+            accept=".pdf,.doc,.docx"
+            required
+          />
+        </div>
+        <button type="submit"><a href="Thankyou.html">Submit Application</a></button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section company-info">
+          <h3>DriveNow</h3>
+          <p>
+            Your ultimate car rental destination. Drive luxury, performance,
+            and reliability.
+          </p>
+        </div>
+
+        <div class="footer-section quick-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ourCars.html">Our Cars</a></li>
+            <li><a href="car-booking.html">Booking</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section contact-info">
+          <h4>Contact Us</h4>
+          <p>Email: info@drivenow.com</p>
+          <p>Phone: +123 456 789</p>
+          <p>Location: 123 Drive Lane, Cityville</p>
+        </div>
+
+        <div class="footer-section social-media">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#"
+              ><img src="imgs/facebook-icon.png" alt="Facebook"
+            /></a>
+            <a href="#"><img src="imgs/twitter-icon.png" alt="Twitter" /></a>
+            <a href="#"
+              ><img src="imgs/instagram-icon.png" alt="Instagram"
+            /></a>
+            <a href="#"
+              ><img src="imgs/linkedin-icon.png" alt="LinkedIn"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 DriveNow. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

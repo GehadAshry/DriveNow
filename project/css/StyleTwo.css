@@ -1,0 +1,346 @@
+/* ==================== */
+/* General Styles */
+/* ==================== */
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+h1 {
+  color: #333333;
+}
+
+h2 {
+  color: #a17575;
+  margin-top: 30px;
+}
+
+h3 {
+  color: #a17575;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #cf9191;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0adad;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+blockquote {
+  margin: 0;
+  font-style: italic;
+  color: #555;
+  text-align: left;
+}
+
+cite {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+}
+
+/* ==================== */
+/* Header and Footer */
+/* ==================== */
+.header {
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(to right, #cf9191, #e0adad);
+}
+
+
+
+
+
+
+
+
+/*==================== */
+/* Form */
+/*=================== */
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="date"],
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group select {
+  padding: 8px;
+}
+
+
+/* ==================== */
+/* About Us Page */
+/* ==================== */
+.team-grid {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.testimonials blockquote {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-left: 5px solid #cf9191;
+  margin: 10px 0;
+}
+
+/* ==================== */
+/* Contact Us Page */
+/* ==================== */
+.contact-info {
+  margin-bottom: 20px;
+}
+
+/* ==================== */
+/* Terms and Conditions Page */
+/* ==================== */
+#terms-and-conditions ul {
+  margin-left: 20px;
+}
+
+#terms-and-conditions h2 {
+  margin-top: 20px;
+}
+
+/* ==================== */
+/* FAQs Page */
+/* ==================== */
+#faq {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #cf9191;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+#back-to-top:hover {
+  background-color: #e0adad;
+}
+
+.faq-item {
+  width: 80%;
+  margin: 0 auto 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .faq-item {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .faq-item {
+    width: 100%;
+  }
+}
+
+.faq-item h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #a17575;
+}
+
+.faq-item p {
+  margin: 10px 0 0;
+  color: #666;
+}
+
+/* ==================== */
+/* Careers Page */
+/* ==================== */
+.job-listing {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-left: 5px solid #ab7e7e;
+  margin-bottom: 20px;
+}
+
+.job-listing h3 {
+  color: #333;
+}
+
+.job-listing p {
+  margin: 5px 0;
+}
+
+.apply-button {
+  background-color: #cf9191;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.apply-button:hover {
+  background-color: #e0adad;
+  text-decoration: none;
+}
+
+/* ==================== */
+/* Testimonials Page */
+/* ==================== */
+#testimonials {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#testimonials p {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.testimonial-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.testimonial {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-left: 5px solid #cf9191;
+  margin: 10px 0;
+  width: 100%;
+}
+
+
+.testimonial-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+#testimonials form {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+#testimonials form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+}
+/*=====================*/
+.thank-you-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  background-color: #f9f9f9; 
+}
+
+.thank-you-page main {
+  flex: 1; 
+}
+
+.thank-you-page .footer {
+  flex-shrink: 0; 
+      text-align: center;  
+	  padding: 5px;     
+	  background-color: #333;  
+	  color: #fff;
+}
